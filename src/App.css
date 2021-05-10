@@ -46,7 +46,7 @@
   top: -60px;
   background: #54BD43;
   border-radius: 10px;
-  border: none;
+  border: solid 2px #54BD43;
   color: #FFF;
   font-family: Roboto;
   font-style: normal;
@@ -57,6 +57,7 @@
 .Validation-Btn:hover {
   background: #6fd85f;
   cursor: pointer;
+  border: solid 2px #6fd85f;
 }
 
 .CPF-Card {
