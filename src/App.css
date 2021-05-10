@@ -69,6 +69,14 @@
   border-radius: 12px;
   top: -82px;
   left: 35.5px;
+  animation-name: CardAnimation;
+  animation-duration: 1s;
+}
+@keyframes CardAnimation {
+  0%   {top: 40px}
+  25%  {top: -20px}
+  50%  {top: -50px}
+  100% {top: -82px}
 }
 
 .Card-Number {
