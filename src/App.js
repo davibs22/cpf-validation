@@ -1,7 +1,8 @@
 import CardCPF from './card.svg';
 import './App.css';
-import Button from '../components/Button';
 import React from 'react';
+import Button from './components/Button';
+import InputMask from "react-input-mask";
 
 function App() {
   return (
@@ -11,8 +12,7 @@ function App() {
           <img src={CardCPF} alt="Card CPF" draggable="false"/>
         </div>
         <label className="Card-Number">000.000.000-00</label>
-        <input type="cpf" className="CPF-Input" placeholder="000.000.000-00" pattern="[0-9]{3}.[0-9]{3}.[0-9]{3}-[0-9]{2}"></input>
-        <button className="Validation-Btn">Validar</button>
+        <InputMask type="cpf" className="CPF-Input" placeholder="000.000.000-00" mask="999.999.999-99"></InputMask>
         <Button></Button>
       </div>
     </div>
