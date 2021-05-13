@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPF Validation</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="scripts/jquery.mask.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="App" >
+    <div class="Container">
+      <div class="CPF-Card">
+        <img src="src/card.svg" alt="Card CPF" draggable="false"/>
+      </div>
+      <label id = "CardNumber" class="Card-Number">000.000.000-00</label>
+      <input id="InputCPF" type="cpf" class="CPF-Input" placeholder="000.000.000-00" mask="999.999.999-99">
+      <button id="ValidationBtn" class="Validation-Btn">Validar</button>
+    </div>
+    <footer><p>Davi Santiago © 2021</p></footer>
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+</html>
